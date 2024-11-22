@@ -61,8 +61,8 @@ const baseClasses = [
 ]
 
 const variantClasses = (variant) => ({
-    'bg-cyan-500 text-white hover:bg-cyan-600 focus:ring-cyan-500': variant == 'primary',
-    'bg-white text-gray-500 hover:bg-gray-100 focus:ring-purple-500 dark:text-gray-400 dark:bg-dark-eval-1 dark:hover:bg-dark-eval-2 dark:hover:text-gray-200':
+    'bg-cyan-500 text-white hover:bg-cyan-600 focus:ring-cyan-600': variant == 'primary',
+    'bg-white text-gray-500 hover:bg-gray-100 focus:ring-cyan-500 dark:text-gray-400 dark:bg-dark-eval-1 dark:hover:bg-dark-eval-2 dark:hover:text-gray-200':
         variant == 'secondary',
     'bg-green-500 text-white hover:bg-green-600 focus:ring-green-500': variant == 'success',
     'bg-red-500 text-white hover:bg-red-600 focus:ring-red-500': variant == 'danger',
@@ -70,6 +70,8 @@ const variantClasses = (variant) => ({
     'bg-cyan-500 text-white hover:bg-cyan-600 focus:ring-cyan-500': variant == 'info',
     'bg-black text-gray-300 hover:text-white hover:bg-gray-800 focus:ring-black dark:hover:bg-dark-eval-3':
         variant == 'black',
+    'bg-slate-700 text-white hover:text-white hover:bg-slate-800 focus:ring-slate-800 dark:hover:bg-slate-eval-3':
+    variant == 'new',  
 })
 
 const classes = computed(() => [

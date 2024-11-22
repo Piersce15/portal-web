@@ -11,6 +11,7 @@ let buttonVariants = [
     "warning",
     "info",
     "black",
+    "new"
 ];
 
 let buttonSizes = ["sm", "base", "lg"]
@@ -22,7 +23,7 @@ let buttonSizes = ["sm", "base", "lg"]
             <div class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                 <h2 class="text-xl font-semibold leading-tight">Buttons</h2>
 
-                <Button
+                <!-- <Button
                     external
                     variant="black"
                     target="_blank"
@@ -32,7 +33,7 @@ let buttonSizes = ["sm", "base", "lg"]
                 >
                     <GithubIcon aria-hidden="true" :class="iconSizeClasses" />
                     <span>Star on Github</span>
-                </Button>
+                </Button> -->
             </div>
         </template>
 

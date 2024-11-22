@@ -8,10 +8,10 @@ import { ZiggyVue } from '../../vendor/tightenco/ziggy/dist/index.esm.js';
 
 
 const appName =
-    window.document.getElementsByTagName('title')[0]?.innerText || 'K UI'
+    window.document.getElementsByTagName('title')[0]?.innerText
 
 createInertiaApp({
-    title: (title) => `${title} - ${appName}`,
+    title: (title) => `${title}`,
     resolve: (name) =>
         resolvePageComponent(
             `./Pages/${name}.vue`,
@@ -24,6 +24,6 @@ createInertiaApp({
             .mount(el)
     },
     progress: {
-        color: '#a855f7'
+        color: '#778da9'
     }
 })
