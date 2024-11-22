@@ -23,6 +23,8 @@ import { Head } from '@inertiajs/vue3';
                     <div class="p-6 text-gray-900">
                         Modificacion
                         Hola, yo soy la hormiga.
+                        <br>
+                        Y yo Santamontes.
                     </div>
                 </div>
             </div>
